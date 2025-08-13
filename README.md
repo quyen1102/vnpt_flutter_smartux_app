@@ -23,10 +23,10 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     
-    let hostICSmartUX = "https://"
-    let appKey = "55040710cf7b0a1a245"
-    let urlUploadImage = "https://" 
-    let urlUploadEvents = "https://"
+      let hostICSmartUX = "" // url của server ICSmartUX
+      let appKey = "" // app key của app
+      let urlUploadImage = "" // url upload image
+      let urlUploadEvents = "" // url upload events
     
   
     let icSmarUX = ICSmartUX.init(host: hostICSmartUX, appKey: appKey)
