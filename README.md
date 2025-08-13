@@ -1,155 +1,193 @@
 # Tích hợp ICSmartUX SDK cho Flutter
 
-Tài liệu này hướng dẫn cách tích hợp và cấu hình ICSmartUX SDK trong một dự án Flutter. Do đặc thù của cross-platform, việc tích hợp đòi hỏi một số bước cấu hình ở phía native (iOS) và gọi chủ động các phương thức theo dõi từ phía Flutter.
+Tài liệu này hướng dẫn cách tích hợp và cấu hình ICSmartUX SDK trong dự án Flutter. Phần native (iOS) khởi tạo SDK và cung cấp bridge qua MethodChannel; phía Flutter dùng wrapper `SmartUX` và `SmartUXObserver` để theo dõi màn hình và gửi sự kiện.
 
 ---
 
-## 1. Cài đặt SDK (Phía Native - iOS)
+## 1. Cài đặt SDK (iOS - AppDelegate)
 
-Trước tiên, bạn cần khởi tạo SDK trong file `AppDelegate.swift` của project iOS.
-
-**Vị trí:** `ios/Runner/AppDelegate.swift`
-
-Thêm đoạn mã sau vào trong phương thức `application(_:didFinishLaunchingWithOptions:)`:
+Vị trí: `ios/Runner/AppDelegate.swift`
 
 ```swift
-import UIKit
 import Flutter
+import UIKit
+import ICSmartUX
 
-@UIApplicationMain
+@main
 @objc class AppDelegate: FlutterAppDelegate {
-  override func application(
-    _ application: UIApplication,
-    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-  ) -> Bool {
-    
-      let hostICSmartUX = "" // url của server ICSmartUX
-      let appKey = "" // app key của app
-      let urlUploadImage = "" // url upload image
-      let urlUploadEvents = "" // url upload events
-    
-  
-    let icSmarUX = ICSmartUX.init(host: hostICSmartUX, appKey: appKey)
-    
-  
-    icSmarUX.urlUploadImage = urlUploadImage
-    icSmarUX.urlUploadEvents = urlUploadEvents
-    icSmarUX.isPrintLog = true 
-    icSmarUX.timeUploadEvent = 10 
-    icSmarUX.isAutoViewTracking = true
+    override func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        // Cấu hình SDK ICSmartUX
+        let hostICSmartUX = "https://console-smartux.vnpt.vn"
+        let appKey = "<APP_KEY>"
+        let urlUploadImage = "https://console-smartux.vnpt.vn/collector/mobile/heatmap-image"
+        let urlUploadEvents = "https://console-smartux.vnpt.vn/collector/mobile/heatmap-event"
 
-    icSmarUX.start()
+        let icSmartUX = ICSmartUX.init(host: hostICSmartUX, appKey: appKey)
+        icSmartUX.urlUploadImage = urlUploadImage
+        icSmartUX.urlUploadEvents = urlUploadEvents
+        icSmartUX.platform = .Flutter
+        icSmartUX.isPrintLog = true
+        icSmartUX.timeUploadEvent = 120
+        icSmartUX.isShowToastTracking = false
+        icSmartUX.isAutoViewTracking = false
+        icSmartUX.start()
 
-    GeneratedPluginRegistrant.register(with: self)
-    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
-  }
+        // Lắng nghe thay đổi xoay màn hình để đồng bộ với SDK
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(AppDelegate.rotated),
+            name: UIDevice.orientationDidChangeNotification,
+            object: nil
+        )
+
+        // Khởi tạo bridge Flutter <-> iOS qua MethodChannel
+        setupMethodChannel()
+
+        GeneratedPluginRegistrant.register(with: self)
+        return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+    }
+
+    @objc func rotated() {
+        if UIDevice.current.orientation.isLandscape {
+            ICSmartUX.onChangeOrientation(newOrientation: .Landscape)
+        } else if UIDevice.current.orientation.isPortrait {
+            ICSmartUX.onChangeOrientation(newOrientation: .Portrait)
+        }
+    }
+
+    private func setupMethodChannel() {
+        let controller : FlutterViewController = window?.rootViewController as! FlutterViewController
+        let channel = FlutterMethodChannel(name: "com.vnpt.ai.ic/SmartUX",
+                                           binaryMessenger: controller.binaryMessenger)
+
+        channel.setMethodCallHandler({ [weak self] (call: FlutterMethodCall, result: FlutterResult) -> Void in
+            guard let strongSelf = self, let args = call.arguments as? [String: Any] else { return }
+            switch call.method {
+            case "addCrashLog": strongSelf.addCrashLog(args: args)
+            case "logException": strongSelf.logException(args: args)
+            case "logFlutterException": strongSelf.logFlutterException(args: args)
+            case "event": strongSelf.event(args: args)
+            case "startEvent": strongSelf.startEvent(args: args)
+            case "cancelEvent": strongSelf.cancelEvent(args: args)
+            case "endEvent": strongSelf.endEvent(args: args)
+            case "recordView": strongSelf.recordView(args: args)
+            case "recordAction": strongSelf.recordAction(args: args)
+            case "trackingNavigationEnter": strongSelf.trackingNavigationEnter(args: args)
+            case "trackingNavigationScreen": strongSelf.trackingNavigationScreen(args: args)
+            case "makeScreenshot": strongSelf.makeScreenshot(args: args)
+            case "setUserData": strongSelf.setUserData(args: args)
+            case "recordFlow": strongSelf.recordFlow(args: args)
+            default: break
+            }
+        })
+    }
 }
+```
+
+Lưu ý: Dòng cấu hình quan trọng `icSmartUX.platform = .Flutter` giúp SDK hoạt động đúng trong môi trường Flutter.
+
+---
+
+## 2. Theo dõi điều hướng (Flutter) bằng `SmartUXObserver`
+
+SDK không thể tự động nhận diện các sự kiện chuyển màn hình trong Flutter. Dự án đã có sẵn `SmartUXObserver` để tự động ghi nhận màn hình mới mỗi khi `Route` được đẩy vào.
+
+Vị trí: `lib/route_observer.dart`
+
+- Khi `didPush`: tự động gọi `recordView` và `trackingNavigationScreen` với tên màn hình.
+- Khi `didPop`: giữ nguyên (có thể mở rộng nếu cần theo dõi).
+
+Cách sử dụng: thêm vào `navigatorObservers` của `MaterialApp`:
+
+```dart
+MaterialApp(
+  navigatorObservers: [SmartUXObserver()],
+  // ...
+)
+```
+
+Nếu bạn cần chụp ảnh màn hình phục vụ heatmap cho một màn hình cụ thể, hãy gọi thủ công sau khi frame đầu tiên render xong:
+
+```dart
+@override
+void initState() {
+  super.initState();
+  WidgetsBinding.instance.addPostFrameCallback((_) {
+    SmartUX.instance.trackingNavigationEnter(screenName: 'SecondaryScreen');
+  });
+}
+```
+
+
+Nếu screen có hiệu ứng animation, hãy tăng timeDelay
+```dart
+@override
+void initState() {
+  super.initState();
+  WidgetsBinding.instance.addPostFrameCallback((_) {
+    SmartUX.instance.trackingNavigationEnter(screenName: 'SecondaryScreen', timeDelay: 0.5);
+  });
+}
+```
+---
+
+## 3. Sử dụng API Flutter (`SmartUX`)
+
+Wrapper `SmartUX` đã đóng gói các lời gọi qua `MethodChannel` `com.vnpt.ai.ic/SmartUX`. Các phương thức chính hiện có:
+
+- Theo dõi màn hình
+  - `recordView({required String screenName, Map<String, dynamic>? segmentation})`
+  - `trackingNavigationScreen({required String screenName})`
+  - `trackingNavigationEnter({required String screenName})` (có chụp ảnh màn hình sau khi vào)
+  - `recordFlow({required String screenName})`
+
+- Sự kiện
+  - `sendEvent({required String eventName, int? eventCount, double? eventSum, Map<String, dynamic>? segmentation})`
+  - `startEvent({required String startEvent})`
+  - `endEvent({required String eventName, int? eventCount, double? eventSum, Map<String, dynamic>? segmentation})`
+  - `cancelEvent({required String cancelEvent})`
+
+- Log/Crash
+  - `addCrashLog({required String record})`
+  - `logException({required String exception})`
+  - `logFlutterException({required String err, required String message, required String stack})`
+
+- User
+  - `setUserData({required Map<String, dynamic> userDataMap})`
+
+Ví dụ nhanh trong `HomePage`:
+
+```dart
+// Gửi sự kiện đơn giản
+await SmartUX.instance.sendEvent(eventName: 'Basic Event', eventCount: 1);
+
+// Theo dõi view + flow
+await SmartUX.instance.recordView(screenName: 'HomePage');
+await SmartUX.instance.trackingNavigationScreen(screenName: 'HomePage');
+
+// Hành động (button click...)
+await SmartUX.instance.recordAction(
+  actionId: 'floating_action_button',
+  actionName: 'Floating Action Button',
+  screenName: 'HomePage',
+);
 ```
 
 ---
 
-## 2. Tích hợp theo dõi điều hướng (Flutter)
+## 4. Ghi chú triển khai
 
-### Tổng quan
+- Bridge iOS đang lắng nghe các method: `addCrashLog`, `logException`, `logFlutterException`, `event`, `startEvent`, `cancelEvent`, `endEvent`, `recordView`, `recordAction`, `trackingNavigationEnter`, `trackingNavigationScreen`, `makeScreenshot`, `setUserData`, `recordFlow`.
+- `SmartUXObserver` hiện tự động gọi `recordView` và `trackingNavigationScreen` trong `didPush`. Nếu cần heatmap/screenshot hãy gọi thêm `trackingNavigationEnter` theo thời điểm phù hợp (sau render).
+- Có thể mở rộng `didPop`/`didPopNext` để ghi nhận luồng quay lại nếu cần.
 
-Vì SDK không thể tự động nhận diện các sự kiện chuyển màn hình trong Flutter, bạn cần phải chủ động thông báo cho SDK mỗi khi người dùng điều hướng tới một màn hình mới. Điều này được thực hiện bằng cách gọi các phương thức native đã được cung cấp sẵn thông qua `MethodChannel`.
+---
 
-### Các phương thức chính
+## 5. Khuyến nghị
 
-Có hai phương thức để theo dõi điều hướng, được định nghĩa sẵn trong SDK:
-
-#### `trackingNavigationScreen(name: String)`
-
-Phương thức này thực hiện các tác vụ cơ bản để ghi nhận một màn hình mới.
-
-* **Chức năng:**
-    * Cập nhật màn hình hiện tại (`currentController`) sang `name` mới.
-    * Ghi nhận luồng điều hướng của người dùng (user flow) khi tên màn hình thay đổi.
-    * Ẩn các khảo sát (survey) đang hiển thị và tải các khảo sát mới tương ứng với màn hình `name` (nếu tính năng survey được bật).
-* **Lưu ý:** Phương thức này **không** chụp ảnh màn hình.
-
-#### `trackingNavigationEnter(name: String, timeDelay: Double = 0.2, forceUpload: Bool = false)`
-
-Phương thức này làm tất cả những gì `trackingNavigationScreen` làm, và bổ sung thêm chức năng chụp ảnh màn hình để phục vụ cho tính năng heatmap.
-
-* **Chức năng:**
-    * Thực hiện toàn bộ các tác vụ của `trackingNavigationScreen`.
-    * **Chụp ảnh màn hình** sau một khoảng trễ `timeDelay` (mặc định là 0.2 giây).
-* **Tham số:**
-    * `name`: Tên định danh của màn hình.
-    * `timeDelay` (tùy chọn): Thời gian chờ (giây) trước khi chụp ảnh. Tăng giá trị này cho các màn hình có nhiều animation hoặc cần thời gian render lâu.
-    * `forceUpload` (tùy chọn): Nếu `true`, SDK sẽ chụp và upload lại ảnh màn hình ngay cả khi đã có ảnh trước đó cho màn hình này.
-
-### Khi nào và làm thế nào để gọi trong Flutter?
-
-**Quy tắc ngắn gọn:**
-
-> * Nếu bạn **chỉ cần theo dõi luồng người dùng và khảo sát**, hãy gọi `trackingNavigationScreen`.
-> * Nếu bạn **cần thêm ảnh màn hình cho heatmap**, hãy gọi `trackingNavigationEnter`.
-
-**Thời điểm gọi lý tưởng:**
-
-Bạn nên gọi các phương thức này ngay sau khi một màn hình mới đã được render hoàn chỉnh và hiển thị cho người dùng. Cách tiếp cận tốt nhất trong Flutter là sử dụng `RouteObserver` kết hợp với `RouteAware`.
-
-1.  **Sử dụng `RouteObserver` và `RouteAware`:**
-    * Trong các sự kiện `didPush` (khi mở màn hình mới) và `didPopNext` (khi quay lại màn hình), hãy gọi phương thức tương ứng.
-2.  **Sử dụng `addPostFrameCallback`:**
-    * Đây là một giải pháp thay thế, đảm bảo lệnh gọi được thực thi sau khi frame đầu tiên của widget được vẽ xong.
-
-    ```dart
-    @override
-    void initState() {
-      super.initState();
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-       
-      });
-    }
-    ```
-
-### Ví dụ (Ý tưởng triển khai)
-
-Bạn sẽ cần thiết lập một `MethodChannel` để giao tiếp từ Dart tới code native Swift. Dưới đây là ý tưởng về cách bạn sẽ gọi nó trong widget của mình.
-
-Giả sử bạn đã có một custom hook hoặc một mixin tên là `useFocusRouteAware` để lắng nghe sự kiện route:
-
-```dart
-// Trong một StatefullWidget hoặc sử dụng một custom hook
-class HomeScreen extends StatefulWidget {
-  @override
-  _HomeScreenState createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> with RouteAware {
-  
-  // Giả sử bạn đã thiết lập RouteObserver
-  
-  @override
-  void didChangeDependencies() {
-    super.didChangeDependencies();
-    routeObserver.subscribe(this, ModalRoute.of(context) as PageRoute);
-  }
-
-  @override
-  void dispose() {
-    routeObserver.unsubscribe(this);
-    super.dispose();
-  }
-
-  @override
-  void didPush() {
-    // Màn hình vừa được đẩy vào, gọi tracking
-    // Giả sử `ICSmartUXChannel` là class quản lý MethodChannel của bạn
-    ICSmartUXChannel.trackingNavigationEnter(
-      name: 'HomeScreen', 
-      timeDelay: 0.3 // Tăng delay nếu màn hình có animation
-    );
-  }
-
-  @override
-  void didPopNext() {
-    // Quay lại màn hình này từ một màn hình khác
-    ICSmartUXChannel.trackingNavigationEnter(name: 'HomeScreen');
-  }
-
-  // ... build method
-}
+- Đặt tên `screenName` thống nhất giữa các màn hình để dữ liệu dễ phân tích.
+- Tăng `timeDelay` (nếu bổ sung tham số sau này) khi màn hình có animation nặng trước khi chụp heatmap.
+- Kiểm tra log console khi debug iOS (`isPrintLog = true`) để xác thực các lệnh gọi.
