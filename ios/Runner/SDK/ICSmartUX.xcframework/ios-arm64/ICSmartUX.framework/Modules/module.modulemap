@@ -1,0 +1,11 @@
+framework module ICSmartUX {
+  umbrella header "ICSmartUX.h"
+  export *
+
+  module * { export * }
+}
+
+module ICSmartUX.Swift {
+  header "ICSmartUX-Swift.h"
+  requires objc
+}

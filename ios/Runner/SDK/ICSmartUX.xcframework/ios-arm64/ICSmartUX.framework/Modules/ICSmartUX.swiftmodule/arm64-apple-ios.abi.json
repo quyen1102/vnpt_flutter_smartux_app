@@ -1,0 +1,5023 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ICSmartUX",
+    "printedName": "ICSmartUX",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwizzlingHelper",
+        "printedName": "SwizzlingHelper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwizzlingHelper",
+                "printedName": "ICSmartUX.SwizzlingHelper",
+                "usr": "c:@M@ICSmartUX@objc(cs)SwizzlingHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ICSmartUX@objc(cs)SwizzlingHelper(im)init",
+            "mangledName": "$s9ICSmartUX15SwizzlingHelperCACycfc",
+            "moduleName": "ICSmartUX",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ICSmartUX@objc(cs)SwizzlingHelper",
+        "mangledName": "$s9ICSmartUX15SwizzlingHelperC",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ICSmartUXDelegate",
+        "printedName": "ICSmartUXDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "icSmartUX",
+            "printedName": "icSmartUX(touch:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ICSmartUX@objc(pl)ICSmartUXDelegate(im)icSmartUXWithTouch:type:",
+            "mangledName": "$s9ICSmartUX0A10UXDelegateP07icSmartB05touch4typeySo7CGPointV_SStF",
+            "moduleName": "ICSmartUX",
+            "genericSig": "<τ_0_0 where τ_0_0 : ICSmartUX.ICSmartUXDelegate>",
+            "sugared_genericSig": "<Self where Self : ICSmartUX.ICSmartUXDelegate>",
+            "protocolReq": true,
+            "objc_name": "icSmartUXWithTouch:type:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "icSmartUXSendRequest",
+            "printedName": "icSmartUXSendRequest(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ICSmartUX@objc(pl)ICSmartUXDelegate(im)icSmartUXSendRequestWithImage:",
+            "mangledName": "$s9ICSmartUX0A10UXDelegateP20icSmartUXSendRequest5imageySo7UIImageC_tF",
+            "moduleName": "ICSmartUX",
+            "genericSig": "<τ_0_0 where τ_0_0 : ICSmartUX.ICSmartUXDelegate>",
+            "sugared_genericSig": "<Self where Self : ICSmartUX.ICSmartUXDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "icSmartUXDidResponse",
+            "printedName": "icSmartUXDidResponse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ICSmartUX@objc(pl)ICSmartUXDelegate(im)icSmartUXDidResponse",
+            "mangledName": "$s9ICSmartUX0A10UXDelegateP20icSmartUXDidResponseyyF",
+            "moduleName": "ICSmartUX",
+            "genericSig": "<τ_0_0 where τ_0_0 : ICSmartUX.ICSmartUXDelegate>",
+            "sugared_genericSig": "<Self where Self : ICSmartUX.ICSmartUXDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ICSmartUX@objc(pl)ICSmartUXDelegate",
+        "mangledName": "$s9ICSmartUX0A10UXDelegateP",
+        "moduleName": "ICSmartUX",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Platform",
+        "printedName": "Platform",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "IOS",
+            "printedName": "IOS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ICSmartUX.Platform.Type) -> ICSmartUX.Platform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Platform",
+                    "printedName": "ICSmartUX.Platform",
+                    "usr": "c:@M@ICSmartUX@E@Platform"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ICSmartUX.Platform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Platform",
+                        "printedName": "ICSmartUX.Platform",
+                        "usr": "c:@M@ICSmartUX@E@Platform"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@ICSmartUX@E@Platform@PlatformIOS",
+            "mangledName": "$s9ICSmartUX8PlatformO3IOSyA2CmF",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Flutter",
+            "printedName": "Flutter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ICSmartUX.Platform.Type) -> ICSmartUX.Platform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Platform",
+                    "printedName": "ICSmartUX.Platform",
+                    "usr": "c:@M@ICSmartUX@E@Platform"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ICSmartUX.Platform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Platform",
+                        "printedName": "ICSmartUX.Platform",
+                        "usr": "c:@M@ICSmartUX@E@Platform"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@ICSmartUX@E@Platform@PlatformFlutter",
+            "mangledName": "$s9ICSmartUX8PlatformO7FlutteryA2CmF",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "ReactNative",
+            "printedName": "ReactNative",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ICSmartUX.Platform.Type) -> ICSmartUX.Platform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Platform",
+                    "printedName": "ICSmartUX.Platform",
+                    "usr": "c:@M@ICSmartUX@E@Platform"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ICSmartUX.Platform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Platform",
+                        "printedName": "ICSmartUX.Platform",
+                        "usr": "c:@M@ICSmartUX@E@Platform"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@ICSmartUX@E@Platform@PlatformReactNative",
+            "mangledName": "$s9ICSmartUX8PlatformO11ReactNativeyA2CmF",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ICSmartUX.Platform?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Platform",
+                    "printedName": "ICSmartUX.Platform",
+                    "usr": "c:@M@ICSmartUX@E@Platform"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9ICSmartUX8PlatformO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9ICSmartUX8PlatformO8rawValueACSgSi_tcfc",
+            "moduleName": "ICSmartUX",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ICSmartUX8PlatformO8rawValueSivp",
+            "mangledName": "$s9ICSmartUX8PlatformO8rawValueSivp",
+            "moduleName": "ICSmartUX",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUX8PlatformO8rawValueSivg",
+                "mangledName": "$s9ICSmartUX8PlatformO8rawValueSivg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@ICSmartUX@E@Platform",
+        "mangledName": "$s9ICSmartUX8PlatformO",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ICSmartUXOrientation",
+        "printedName": "ICSmartUXOrientation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Portrait",
+            "printedName": "Portrait",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ICSmartUX.ICSmartUXOrientation.Type) -> ICSmartUX.ICSmartUXOrientation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICSmartUXOrientation",
+                    "printedName": "ICSmartUX.ICSmartUXOrientation",
+                    "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ICSmartUX.ICSmartUXOrientation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ICSmartUXOrientation",
+                        "printedName": "ICSmartUX.ICSmartUXOrientation",
+                        "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation@ICSmartUXOrientationPortrait",
+            "mangledName": "$s9ICSmartUX0A13UXOrientationO8PortraityA2CmF",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Landscape",
+            "printedName": "Landscape",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ICSmartUX.ICSmartUXOrientation.Type) -> ICSmartUX.ICSmartUXOrientation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICSmartUXOrientation",
+                    "printedName": "ICSmartUX.ICSmartUXOrientation",
+                    "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ICSmartUX.ICSmartUXOrientation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ICSmartUXOrientation",
+                        "printedName": "ICSmartUX.ICSmartUXOrientation",
+                        "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation@ICSmartUXOrientationLandscape",
+            "mangledName": "$s9ICSmartUX0A13UXOrientationO9LandscapeyA2CmF",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ICSmartUX.ICSmartUXOrientation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICSmartUXOrientation",
+                    "printedName": "ICSmartUX.ICSmartUXOrientation",
+                    "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9ICSmartUX0A13UXOrientationO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9ICSmartUX0A13UXOrientationO8rawValueACSgSi_tcfc",
+            "moduleName": "ICSmartUX",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ICSmartUX0A13UXOrientationO8rawValueSivp",
+            "mangledName": "$s9ICSmartUX0A13UXOrientationO8rawValueSivp",
+            "moduleName": "ICSmartUX",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUX0A13UXOrientationO8rawValueSivg",
+                "mangledName": "$s9ICSmartUX0A13UXOrientationO8rawValueSivg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation",
+        "mangledName": "$s9ICSmartUX0A13UXOrientationO",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ICSmartUX",
+        "printedName": "ICSmartUX",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "urlUploadImage",
+            "printedName": "urlUploadImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)urlUploadImage",
+            "mangledName": "$s9ICSmartUXAAC14urlUploadImageSSvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)urlUploadImage",
+                "mangledName": "$s9ICSmartUXAAC14urlUploadImageSSvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setUrlUploadImage:",
+                "mangledName": "$s9ICSmartUXAAC14urlUploadImageSSvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC14urlUploadImageSSvM",
+                "mangledName": "$s9ICSmartUXAAC14urlUploadImageSSvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlUploadEvents",
+            "printedName": "urlUploadEvents",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)urlUploadEvents",
+            "mangledName": "$s9ICSmartUXAAC15urlUploadEventsSSvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)urlUploadEvents",
+                "mangledName": "$s9ICSmartUXAAC15urlUploadEventsSSvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setUrlUploadEvents:",
+                "mangledName": "$s9ICSmartUXAAC15urlUploadEventsSSvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC15urlUploadEventsSSvM",
+                "mangledName": "$s9ICSmartUXAAC15urlUploadEventsSSvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlGetSurvey",
+            "printedName": "urlGetSurvey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)urlGetSurvey",
+            "mangledName": "$s9ICSmartUXAAC12urlGetSurveySSvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)urlGetSurvey",
+                "mangledName": "$s9ICSmartUXAAC12urlGetSurveySSvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setUrlGetSurvey:",
+                "mangledName": "$s9ICSmartUXAAC12urlGetSurveySSvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC12urlGetSurveySSvM",
+                "mangledName": "$s9ICSmartUXAAC12urlGetSurveySSvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlSubmitSurvey",
+            "printedName": "urlSubmitSurvey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)urlSubmitSurvey",
+            "mangledName": "$s9ICSmartUXAAC15urlSubmitSurveySSvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)urlSubmitSurvey",
+                "mangledName": "$s9ICSmartUXAAC15urlSubmitSurveySSvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setUrlSubmitSurvey:",
+                "mangledName": "$s9ICSmartUXAAC15urlSubmitSurveySSvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC15urlSubmitSurveySSvM",
+                "mangledName": "$s9ICSmartUXAAC15urlSubmitSurveySSvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlUpdateUserData",
+            "printedName": "urlUpdateUserData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)urlUpdateUserData",
+            "mangledName": "$s9ICSmartUXAAC17urlUpdateUserDataSSvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)urlUpdateUserData",
+                "mangledName": "$s9ICSmartUXAAC17urlUpdateUserDataSSvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setUrlUpdateUserData:",
+                "mangledName": "$s9ICSmartUXAAC17urlUpdateUserDataSSvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC17urlUpdateUserDataSSvM",
+                "mangledName": "$s9ICSmartUXAAC17urlUpdateUserDataSSvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlUploadUserFlow",
+            "printedName": "urlUploadUserFlow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)urlUploadUserFlow",
+            "mangledName": "$s9ICSmartUXAAC17urlUploadUserFlowSSvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)urlUploadUserFlow",
+                "mangledName": "$s9ICSmartUXAAC17urlUploadUserFlowSSvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setUrlUploadUserFlow:",
+                "mangledName": "$s9ICSmartUXAAC17urlUploadUserFlowSSvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC17urlUploadUserFlowSSvM",
+                "mangledName": "$s9ICSmartUXAAC17urlUploadUserFlowSSvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPrintLog",
+            "printedName": "isPrintLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)isPrintLog",
+            "mangledName": "$s9ICSmartUXAAC10isPrintLogSbvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)isPrintLog",
+                "mangledName": "$s9ICSmartUXAAC10isPrintLogSbvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setIsPrintLog:",
+                "mangledName": "$s9ICSmartUXAAC10isPrintLogSbvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC10isPrintLogSbvM",
+                "mangledName": "$s9ICSmartUXAAC10isPrintLogSbvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isShowToastTracking",
+            "printedName": "isShowToastTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)isShowToastTracking",
+            "mangledName": "$s9ICSmartUXAAC19isShowToastTrackingSbvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)isShowToastTracking",
+                "mangledName": "$s9ICSmartUXAAC19isShowToastTrackingSbvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setIsShowToastTracking:",
+                "mangledName": "$s9ICSmartUXAAC19isShowToastTrackingSbvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC19isShowToastTrackingSbvM",
+                "mangledName": "$s9ICSmartUXAAC19isShowToastTrackingSbvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAutoViewTracking",
+            "printedName": "isAutoViewTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)isAutoViewTracking",
+            "mangledName": "$s9ICSmartUXAAC18isAutoViewTrackingSbvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)isAutoViewTracking",
+                "mangledName": "$s9ICSmartUXAAC18isAutoViewTrackingSbvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setIsAutoViewTracking:",
+                "mangledName": "$s9ICSmartUXAAC18isAutoViewTrackingSbvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC18isAutoViewTrackingSbvM",
+                "mangledName": "$s9ICSmartUXAAC18isAutoViewTrackingSbvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Platform",
+                "printedName": "ICSmartUX.Platform",
+                "usr": "c:@M@ICSmartUX@E@Platform"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)platform",
+            "mangledName": "$s9ICSmartUXAAC8platformAA8PlatformOvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Platform",
+                    "printedName": "ICSmartUX.Platform",
+                    "usr": "c:@M@ICSmartUX@E@Platform"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)platform",
+                "mangledName": "$s9ICSmartUXAAC8platformAA8PlatformOvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Platform",
+                    "printedName": "ICSmartUX.Platform",
+                    "usr": "c:@M@ICSmartUX@E@Platform"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setPlatform:",
+                "mangledName": "$s9ICSmartUXAAC8platformAA8PlatformOvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC8platformAA8PlatformOvM",
+                "mangledName": "$s9ICSmartUXAAC8platformAA8PlatformOvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeUploadEvent",
+            "printedName": "timeUploadEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)timeUploadEvent",
+            "mangledName": "$s9ICSmartUXAAC15timeUploadEventSivp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)timeUploadEvent",
+                "mangledName": "$s9ICSmartUXAAC15timeUploadEventSivg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setTimeUploadEvent:",
+                "mangledName": "$s9ICSmartUXAAC15timeUploadEventSivs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC15timeUploadEventSivM",
+                "mangledName": "$s9ICSmartUXAAC15timeUploadEventSivM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeDelayMakeScreenshot",
+            "printedName": "timeDelayMakeScreenshot",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)timeDelayMakeScreenshot",
+            "mangledName": "$s9ICSmartUXAAC23timeDelayMakeScreenshotSdvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)timeDelayMakeScreenshot",
+                "mangledName": "$s9ICSmartUXAAC23timeDelayMakeScreenshotSdvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setTimeDelayMakeScreenshot:",
+                "mangledName": "$s9ICSmartUXAAC23timeDelayMakeScreenshotSdvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC23timeDelayMakeScreenshotSdvM",
+                "mangledName": "$s9ICSmartUXAAC23timeDelayMakeScreenshotSdvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sensitiveScreen",
+            "printedName": "sensitiveScreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)sensitiveScreen",
+            "mangledName": "$s9ICSmartUXAAC15sensitiveScreenSaySSGvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)sensitiveScreen",
+                "mangledName": "$s9ICSmartUXAAC15sensitiveScreenSaySSGvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setSensitiveScreen:",
+                "mangledName": "$s9ICSmartUXAAC15sensitiveScreenSaySSGvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC15sensitiveScreenSaySSGvM",
+                "mangledName": "$s9ICSmartUXAAC15sensitiveScreenSaySSGvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDisableUploadImage",
+            "printedName": "isDisableUploadImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)isDisableUploadImage",
+            "mangledName": "$s9ICSmartUXAAC20isDisableUploadImageSbvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)isDisableUploadImage",
+                "mangledName": "$s9ICSmartUXAAC20isDisableUploadImageSbvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setIsDisableUploadImage:",
+                "mangledName": "$s9ICSmartUXAAC20isDisableUploadImageSbvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC20isDisableUploadImageSbvM",
+                "mangledName": "$s9ICSmartUXAAC20isDisableUploadImageSbvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDisableSurvey",
+            "printedName": "isDisableSurvey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)isDisableSurvey",
+            "mangledName": "$s9ICSmartUXAAC15isDisableSurveySbvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)isDisableSurvey",
+                "mangledName": "$s9ICSmartUXAAC15isDisableSurveySbvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setIsDisableSurvey:",
+                "mangledName": "$s9ICSmartUXAAC15isDisableSurveySbvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC15isDisableSurveySbvM",
+                "mangledName": "$s9ICSmartUXAAC15isDisableSurveySbvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isUseCombineCocoa",
+            "printedName": "isUseCombineCocoa",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(py)isUseCombineCocoa",
+            "mangledName": "$s9ICSmartUXAAC17isUseCombineCocoaSbvp",
+            "moduleName": "ICSmartUX",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)isUseCombineCocoa",
+                "mangledName": "$s9ICSmartUXAAC17isUseCombineCocoaSbvg",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)setIsUseCombineCocoa:",
+                "mangledName": "$s9ICSmartUXAAC17isUseCombineCocoaSbvs",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ICSmartUXAAC17isUseCombineCocoaSbvM",
+                "mangledName": "$s9ICSmartUXAAC17isUseCombineCocoaSbvM",
+                "moduleName": "ICSmartUX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(host:appKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ICSmartUX",
+                "printedName": "ICSmartUX.ICSmartUX",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)initWithHost:appKey:",
+            "mangledName": "$s9ICSmartUXAAC4host6appKeyABSS_SStcfc",
+            "moduleName": "ICSmartUX",
+            "objc_name": "initWithHost:appKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)start",
+            "mangledName": "$s9ICSmartUXAAC5startyyF",
+            "moduleName": "ICSmartUX",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)stop",
+            "mangledName": "$s9ICSmartUXAAC4stopyyF",
+            "moduleName": "ICSmartUX",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ICSmartUX",
+                "printedName": "ICSmartUX.ICSmartUX",
+                "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX(im)init",
+            "mangledName": "$s9ICSmartUXAACABycfc",
+            "moduleName": "ICSmartUX",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeScreenshotOutSide",
+            "printedName": "makeScreenshotOutSide(name:forceUpload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)makeScreenshotOutSideWithName:forceUpload:",
+            "mangledName": "$s9ICSmartUXAAC21makeScreenshotOutSide4name11forceUploadySS_SbtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "makeScreenshotOutSideWithName:forceUpload:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordViewOutSide",
+            "printedName": "recordViewOutSide(name:segmentation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordViewOutSideWithName:segmentation:",
+            "mangledName": "$s9ICSmartUXAAC17recordViewOutSide4name12segmentationySS_SDyS2SGtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordViewOutSideWithName:segmentation:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackingNavigationScreen",
+            "printedName": "trackingNavigationScreen(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)trackingNavigationScreenWithName:",
+            "mangledName": "$s9ICSmartUXAAC24trackingNavigationScreen4nameySS_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "trackingNavigationScreenWithName:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackingNavigationEnter",
+            "printedName": "trackingNavigationEnter(name:timeDelay:forceUpload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)trackingNavigationEnterWithName:timeDelay:forceUpload:",
+            "mangledName": "$s9ICSmartUXAAC23trackingNavigationEnter4name9timeDelay11forceUploadySS_SdSbtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "trackingNavigationEnterWithName:timeDelay:forceUpload:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onChangeOrientation",
+            "printedName": "onChangeOrientation(newOrientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ICSmartUXOrientation",
+                "printedName": "ICSmartUX.ICSmartUXOrientation",
+                "usr": "c:@M@ICSmartUX@E@ICSmartUXOrientation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)onChangeOrientationWithNewOrientation:",
+            "mangledName": "$s9ICSmartUXAAC19onChangeOrientation03newE0yAA0A13UXOrientationO_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "onChangeOrientationWithNewOrientation:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordHandledException",
+            "printedName": "recordHandledException(exception:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSException",
+                "printedName": "Foundation.NSException",
+                "usr": "c:objc(cs)NSException"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordHandledExceptionWithException:",
+            "mangledName": "$s9ICSmartUXAAC22recordHandledException9exceptionySo11NSExceptionC_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordHandledExceptionWithException:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordHandledException",
+            "printedName": "recordHandledException(exception:withStackTrace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSException",
+                "printedName": "Foundation.NSException",
+                "usr": "c:objc(cs)NSException"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordHandledExceptionWithException:withStackTrace:",
+            "mangledName": "$s9ICSmartUXAAC22recordHandledException9exception14withStackTraceySo11NSExceptionC_SayypGSgtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordHandledExceptionWithException:withStackTrace:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordEvent",
+            "printedName": "recordEvent(eventName:count:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordEventWithEventName:count:",
+            "mangledName": "$s9ICSmartUXAAC11recordEvent9eventName5countySS_SutFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordEventWithEventName:count:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordEvent",
+            "printedName": "recordEvent(eventName:count:sum:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordEventWithEventName:count:sum:",
+            "mangledName": "$s9ICSmartUXAAC11recordEvent9eventName5count3sumySS_SuSdtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordEventWithEventName:count:sum:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordEvent",
+            "printedName": "recordEvent(eventName:segmentation:count:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordEventWithEventName:segmentation:count:",
+            "mangledName": "$s9ICSmartUXAAC11recordEvent9eventName12segmentation5countySS_SDyS2SGSgSutFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordEventWithEventName:segmentation:count:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordEvent",
+            "printedName": "recordEvent(eventName:segmentation:count:sum:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordEventWithEventName:segmentation:count:sum:",
+            "mangledName": "$s9ICSmartUXAAC11recordEvent9eventName12segmentation5count3sumySS_SDyS2SGSgSuSdtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordEventWithEventName:segmentation:count:sum:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordAction",
+            "printedName": "recordAction(actionId:actionName:screenName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordActionWithActionId:actionName:screenName:",
+            "mangledName": "$s9ICSmartUXAAC12recordAction8actionId0E4Name06screenG0ySSSg_A2GtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordActionWithActionId:actionName:screenName:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startEvent",
+            "printedName": "startEvent(eventName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)startEventWithEventName:",
+            "mangledName": "$s9ICSmartUXAAC10startEvent9eventNameySS_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "startEventWithEventName:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endEvent",
+            "printedName": "endEvent(eventName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)endEventWithEventName:",
+            "mangledName": "$s9ICSmartUXAAC8endEvent9eventNameySS_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "endEventWithEventName:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endEvent",
+            "printedName": "endEvent(eventName:segmentation:count:sum:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)endEventWithEventName:segmentation:count:sum:",
+            "mangledName": "$s9ICSmartUXAAC8endEvent9eventName12segmentation5count3sumySS_SDyS2SGSgSuSdtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "endEventWithEventName:segmentation:count:sum:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelEvent",
+            "printedName": "cancelEvent(eventName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)cancelEventWithEventName:",
+            "mangledName": "$s9ICSmartUXAAC11cancelEvent9eventNameySS_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "cancelEventWithEventName:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordCrashLog",
+            "printedName": "recordCrashLog(log:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordCrashLogWithLog:",
+            "mangledName": "$s9ICSmartUXAAC14recordCrashLog3logySS_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordCrashLogWithLog:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserData",
+            "printedName": "setUserData(userData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)setUserDataWithUserData:",
+            "mangledName": "$s9ICSmartUXAAC11setUserData04userE0ySDySSypG_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "setUserDataWithUserData:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserData",
+            "printedName": "setUserData(userId:userData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)setUserDataWithUserId:userData:",
+            "mangledName": "$s9ICSmartUXAAC11setUserData6userId0fE0ySS_SDySSypGtFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "setUserDataWithUserId:userData:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordFlow",
+            "printedName": "recordFlow(screenName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ICSmartUX@objc(cs)ICSmartUX(cm)recordFlowWithScreenName:",
+            "mangledName": "$s9ICSmartUXAAC10recordFlow10screenNameySS_tFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "objc_name": "recordFlowWithScreenName:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ICSmartUX@objc(cs)ICSmartUX",
+        "mangledName": "$s9ICSmartUXAAC",
+        "moduleName": "ICSmartUX",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreText",
+        "printedName": "CoreText",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "ICSmartUX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "next",
+            "printedName": "next",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIResponder?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIResponder",
+                    "printedName": "UIKit.UIResponder",
+                    "usr": "c:objc(cs)UIResponder"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@ICSmartUX@@objc(cs)UIApplication(py)nextResponder",
+            "mangledName": "$sSo13UIApplicationC9ICSmartUXE4nextSo11UIResponderCSgvp",
+            "moduleName": "ICSmartUX",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "nextResponder",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIResponder?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIResponder",
+                        "printedName": "UIKit.UIResponder",
+                        "usr": "c:objc(cs)UIResponder"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@ICSmartUX@@objc(cs)UIApplication(im)nextResponder",
+                "mangledName": "$sSo13UIApplicationC9ICSmartUXE4nextSo11UIResponderCSgvg",
+                "moduleName": "ICSmartUX",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "nextResponder",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "inject",
+            "printedName": "inject()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UIViewControllerC9ICSmartUXE6injectyyFZ",
+            "mangledName": "$sSo16UIViewControllerC9ICSmartUXE6injectyyFZ",
+            "moduleName": "ICSmartUX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUxRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 23,
+      "value": "\"smartux_request_queue\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUxRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUxRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 501,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/ICSmartUXSurveyViewController.swift",
+      "kind": "Array",
+      "offset": 1223,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/ICSmartUXSurveyViewController.swift",
+      "kind": "Array",
+      "offset": 1278,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/ICSmartUXSurveyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1536,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/ICSmartUXSurveyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1577,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/ICSmartUXSurveyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1312,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 430,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 456,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 485,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 518,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 647,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 826,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 859,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 894,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 929,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 963,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 1215,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 1248,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 1288,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "FloatLiteral",
+      "offset": 1327,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1397,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUXQueryDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 22,
+      "value": "\"smartux_version.json\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUXQueryDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 22,
+      "value": "\"smartux_screens.json\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUXQueryDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 28,
+      "value": "\"smartux_appear_events.json\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUXQueryDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 28,
+      "value": "\"smartux_multi_touches.json\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUXQueryDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 29,
+      "value": "\"smartux_selector_event.json\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/Cells\/ICSmartUXSliderQuestionCell.swift",
+      "kind": "Array",
+      "offset": 3398,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/Cells\/ICSmartUXSliderQuestionCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3425,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/Cells\/ICSmartUXSliderQuestionCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3451,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/Cells\/ICSmartUXSliderQuestionCell.swift",
+      "kind": "Dictionary",
+      "offset": 3539,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 23,
+      "value": "\"com.toast-swift.timer\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 26,
+      "value": "\"com.toast-swift.duration\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 23,
+      "value": "\"com.toast-swift.point\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 28,
+      "value": "\"com.toast-swift.completion\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
+      "length": 30,
+      "value": "\"com.toast-swift.activeToasts\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 30,
+      "value": "\"com.toast-swift.activityView\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "StringLiteral",
+      "offset": 1014,
+      "length": 23,
+      "value": "\"com.toast-swift.queue\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8207,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8233,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 23089,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 23648,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 23654,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 23564,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 24000,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 24006,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 23914,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 24292,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 24652,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 24758,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 24901,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 25048,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25476,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25616,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25741,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26095,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26101,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26021,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26222,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26337,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26350,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26462,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26476,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26662,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26677,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 26806,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 27111,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27748,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28189,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/Toast\/ICSmartUXToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 28405,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUXExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4289,
+      "length": 38,
+      "value": "\"TouchHeatMapViewControllerKeyDefault\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1180,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1197,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1374,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1397,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 1672,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 2173,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 2395,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 2640,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 2856,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2990,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3251,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3785,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "FloatLiteral",
+      "offset": 3947,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "Array",
+      "offset": 4284,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4622,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4867,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5150,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 5665,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 5810,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "StringLiteral",
+      "offset": 6158,
+      "length": 41,
+      "value": "\"Không cài đặt đúng UIApplication\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6890,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6896,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7009,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34125,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "FloatLiteral",
+      "offset": 38487,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Main\/ICSmartUX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/UserFlowStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 19,
+      "value": "\"smartux_user_flow\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICTimer\/ICTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 475,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICTimer\/ICTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 559,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 14,
+      "value": "\"Inter-Medium\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 15,
+      "value": "\"Inter-Regular\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 16,
+      "value": "\"Inter-SemiBold\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 33,
+      "value": "\"com.icsoftwarecompany.ICSmartUX\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "BooleanLiteral",
+      "offset": 543,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 8,
+      "value": "0x2397F1"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 8,
+      "value": "0x0A111F"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 682,
+      "length": 8,
+      "value": "0x545454"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 725,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 8,
+      "value": "0x757575"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 858,
+      "length": 8,
+      "value": "0xEEEEEE"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Common\/Constant\/ICSmartUXConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 906,
+      "length": 8,
+      "value": "0x0C71C0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/Cells\/ICSmartUXRatingCell.swift",
+      "kind": "Array",
+      "offset": 1968,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/Cells\/ICSmartUXRatingCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1996,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Modules\/Survey\/Cells\/ICSmartUXRatingCell.swift",
+      "kind": "Dictionary",
+      "offset": 2131,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 683,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "Array",
+      "offset": 728,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "Array",
+      "offset": 778,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1748,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1774,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2131,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2155,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2196,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "Array",
+      "offset": 2324,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2382,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 3213,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "StringLiteral",
+      "offset": 3239,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Documents\/VNPT\/IOS\/smartux_ios_sdk\/ICSmartUX\/ICSmartUX\/Helper\/ICStore\/ICObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3263,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Library\/Developer\/Xcode\/DerivedData\/ICSmartUX-gcgxadoxbmxdtffahwryebgultzv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ICSmartUX\/IntermediateBuildFilesPath\/ICSmartUX.build\/Release-iphoneos\/ICSmartUX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 10,
+      "value": "\"close_ic\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Library\/Developer\/Xcode\/DerivedData\/ICSmartUX-gcgxadoxbmxdtffahwryebgultzv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ICSmartUX\/IntermediateBuildFilesPath\/ICSmartUX.build\/Release-iphoneos\/ICSmartUX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 9,
+      "value": "\"emoij_1\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Library\/Developer\/Xcode\/DerivedData\/ICSmartUX-gcgxadoxbmxdtffahwryebgultzv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ICSmartUX\/IntermediateBuildFilesPath\/ICSmartUX.build\/Release-iphoneos\/ICSmartUX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 9,
+      "value": "\"emoij_2\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Library\/Developer\/Xcode\/DerivedData\/ICSmartUX-gcgxadoxbmxdtffahwryebgultzv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ICSmartUX\/IntermediateBuildFilesPath\/ICSmartUX.build\/Release-iphoneos\/ICSmartUX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 9,
+      "value": "\"emoij_3\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Library\/Developer\/Xcode\/DerivedData\/ICSmartUX-gcgxadoxbmxdtffahwryebgultzv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ICSmartUX\/IntermediateBuildFilesPath\/ICSmartUX.build\/Release-iphoneos\/ICSmartUX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 9,
+      "value": "\"emoij_4\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Library\/Developer\/Xcode\/DerivedData\/ICSmartUX-gcgxadoxbmxdtffahwryebgultzv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ICSmartUX\/IntermediateBuildFilesPath\/ICSmartUX.build\/Release-iphoneos\/ICSmartUX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
+      "length": 9,
+      "value": "\"emoij_5\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Library\/Developer\/Xcode\/DerivedData\/ICSmartUX-gcgxadoxbmxdtffahwryebgultzv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ICSmartUX\/IntermediateBuildFilesPath\/ICSmartUX.build\/Release-iphoneos\/ICSmartUX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1525,
+      "length": 11,
+      "value": "\"star_fill\""
+    },
+    {
+      "filePath": "\/Users\/tranthaiquyen\/Library\/Developer\/Xcode\/DerivedData\/ICSmartUX-gcgxadoxbmxdtffahwryebgultzv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ICSmartUX\/IntermediateBuildFilesPath\/ICSmartUX.build\/Release-iphoneos\/ICSmartUX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 14,
+      "value": "\"star_outline\""
+    }
+  ]
+}
