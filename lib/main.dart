@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'route_observer.dart';
 import 'secondary_screen.dart';
-import 'package:flutter/material.dart';
 
 import 'smart_ux.dart';
 
@@ -231,6 +230,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: ElevatedButton(
                   onPressed:
                       () => SmartUX.instance.setUserData(
+                        userId: "", // require for product
                         userDataMap: {
                           'name': 'Name of User',
                           'username': 'Username',
@@ -255,6 +255,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: ElevatedButton(
                   onPressed:
                       () => SmartUX.instance.setUserData(
+                        userId: "", // require for product
                         userDataMap: {
                           'organization': 'Updated User Organization',
                           'phone': 'Updated User Contact number',

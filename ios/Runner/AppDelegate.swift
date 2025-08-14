@@ -11,7 +11,7 @@ import ICSmartUX
         
         //===[START] Cấu hình SDK ICSmartUX ===
         let hostICSmartUX = "https://console-smartux.vnpt.vn" // url của server ICSmartUX
-        let appKey = "55040710f33156c2ba1872db714b4cf7b0a1a245" // app key của app
+        let appKey = "<APP_KEY>" // app key của app
         let urlUploadImage = "https://console-smartux.vnpt.vn/collector/mobile/heatmap-image" // url upload image
         let urlUploadEvents = "https://console-smartux.vnpt.vn/collector/mobile/heatmap-event" // url upload events
         
@@ -20,7 +20,7 @@ import ICSmartUX
         icSmartUX.urlUploadImage = urlUploadImage
         icSmartUX.urlUploadEvents = urlUploadEvents
         icSmartUX.platform = .Flutter
-        icSmartUX.isPrintLog = true // xem log trên console khi chạy app bằng xcode
+        icSmartUX.isPrintLog = true
         icSmartUX.timeUploadEvent = 120
         icSmartUX.isShowToastTracking = false;
         icSmartUX.isAutoViewTracking = false;

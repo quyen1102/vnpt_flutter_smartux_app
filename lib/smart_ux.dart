@@ -122,9 +122,13 @@ class SmartUX {
     });
   }
 
-  Future<void> setUserData({required Map<String, dynamic> userDataMap}) async {
+  Future<void> setUserData({
+    required String userId,
+    required Map<String, dynamic> userDataMap,
+  }) async {
     await Channels.smartUX.invokeMethodOnMobile<void>("setUserData", {
       "userDataMap": userDataMap,
+      "userId": userId,
     });
   }
 

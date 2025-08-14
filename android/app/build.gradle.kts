@@ -38,7 +38,10 @@ android {
         }
     }
 }
-
 flutter {
     source = "../.."
+}
+
+dependencies {
+    implementation(files("$rootDir/libs/smart-ux-v1.1.2.aar"))
 }
