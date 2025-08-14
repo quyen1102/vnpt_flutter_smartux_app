@@ -204,8 +204,9 @@ import ICSmartUX
     }
     
     private func setUserData(args: [String: Any]) {
-        guard let userData = args["userDataMap"] as? [String: Any] else { return }
-        ICSmartUX.setUserData(userData: userData)
+        guard let userId = args["userId"] as? String,
+              let userData = args["userDataMap"] as? [String: Any] else { return }
+        ICSmartUX.setUserData(userId: userId, userData: userData)
     }
     private func recordFlow(args: [String: Any]){
         guard let screenName = args["screenName"] as? String else { return }
