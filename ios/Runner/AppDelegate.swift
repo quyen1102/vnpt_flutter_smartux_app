@@ -20,7 +20,7 @@ import ICSmartUX
         icSmartUX.urlUploadImage = urlUploadImage
         icSmartUX.urlUploadEvents = urlUploadEvents
         icSmartUX.platform = .Flutter
-        icSmartUX.isPrintLog = true
+        icSmartUX.isPrintLog = true // xem log trên console khi chạy app bằng xcode
         icSmartUX.timeUploadEvent = 120
         icSmartUX.isShowToastTracking = false;
         icSmartUX.isAutoViewTracking = false;

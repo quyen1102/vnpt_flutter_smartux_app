@@ -31,6 +31,7 @@ class MainActivity : FlutterActivity(), MethodChannel.MethodCallHandler {
 				LogLevel.VERBOSE -> Log.v(TAG, message, tr)
 			}
 		}
+
 	}
 
 	private var isSessionStarted = false
